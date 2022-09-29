@@ -98,5 +98,3 @@ func DeleteUser(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
 
 }
-
-// Написать методы Delete (удалить юзера по id) и GetAll (возвращает всех юзеров)
